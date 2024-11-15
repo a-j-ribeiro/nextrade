@@ -93,6 +93,68 @@
 
 
 
+<!-- LOGIN/SIGNUP -->
+<section class="forms-section">
+
+    <!-- LOG IN -->
+    <div class="forms">
+      <div class="form-wrapper is-active">
+        <button type="button" class="switcher switcher-login">Login</button>
+
+        <!-- FORM -->
+        <form class="form form-login">
+          <fieldset>
+            <legend>Please, enter your email and password for login.</legend>
+            <div class="input-block">
+            <div class="form-icons-container">
+                <img src="images/email-svgrepo-com.png" class="form-icon-email form-icons" alt="">
+            </div>
+              <input id="login-email" placeholder="Username or E-Mail Address" type="email" required>
+            </div>
+            <div class="input-block">
+                <div class="form-icons-container">
+                    <img src="images/lock-circle-svgrepo-com.png" class="form-icon-password form-icons" alt="">
+                </div>
+              <input id="login-password" placeholder="Password" type="password" required>
+            </div>
+          </fieldset>
+          
+          <button type="submit" class="btn-login">Login</button>
+          <p class="forgot-password-link">Forgot Password?</p>
+        </form>
+
+      </div>
+
+      <!-- SIGN UP -->
+      <div class="form-wrapper">
+        <button type="button" class="switcher switcher-signup">
+          Create Account
+          <span class="underline"></span>
+        </button>
+        <form class="form form-signup">
+          <fieldset>
+            
+            <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+            <div class="input-block">
+              <label for="signup-email">E-mail Address</label>
+              <input id="signup-email" type="email" required>
+            </div>
+
+            <div class="input-block">
+              <label for="signup-password">Password</label>
+              <input id="signup-password" type="password" required>
+            </div>
+            <div class="input-block">
+              <label for="signup-password-confirm">Confirm Password</label>
+              <input id="signup-password-confirm" type="password" required>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn-signup">Continue</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
 
 
 <!-------------------- LIVE TRADING DATA STRIP -------------------->
